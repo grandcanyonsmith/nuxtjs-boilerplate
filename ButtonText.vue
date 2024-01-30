@@ -1,5 +1,6 @@
+
 <template>
-  <span>Glow on Hover</span>
+  <span>Dont glow on hover yo</span>
 </template>
 
 <script>
