@@ -1,10 +1,22 @@
 <template>
   <div>
     <div class="container">
-      <button class="glow-on-hover" type="button">Glow on SuperHover</button>
+      <button class="glow-on-hover" type="button">
+        <ButtonText />
+      </button>
     </div>
   </div>
 </template>
+
+<script>
+import ButtonText from './ButtonText.vue'
+
+export default {
+  components: {
+    ButtonText
+  }
+}
+</script>
 
 <style scoped>
 .container {
