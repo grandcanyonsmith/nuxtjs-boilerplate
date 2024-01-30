@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <button class="glow-on-hover" type="button">Glow on Hover</button>
+      <button class="glow-on-hover" type="button">Glow on SuperHover</button>
     </div>
   </div>
 </template>
