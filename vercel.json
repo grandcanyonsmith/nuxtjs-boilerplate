@@ -1,15 +1,6 @@
 {
-  "builds": [
-    {
-      "src": "nuxt.config.ts",
-      "use": "@vercel/node",
-      "config": {
-        "maxLambdaSize": "15mb"
-      }
-    }
-  ],
   "functions": {
-    "api/**/*": {
+    "api/**/*.ts": {
       "runtime": "nodejs20.x"
     }
   }
