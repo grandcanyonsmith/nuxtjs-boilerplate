@@ -1,5 +1,5 @@
 <template>
-  <span>Glow on Hover</span>
+  <span>Get A/C Service Quote</span>
 </template>
 
 <script>
